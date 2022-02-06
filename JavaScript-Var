@@ -12,6 +12,10 @@ let carViki = { "Type": "VW", "Year": 2002, "Color": "grey",        "coupling-ho
 
 let carBarbara = { "Type": "BMW", "Year": 2010, "Color": "black",   "coupling-hook": true}
 
+let carRM = { "Type": "Audi", "Year": 2015, "Color": "white", "coupling-hook": true}
+
+let carME = { "Type": "Skoda", "Year": 2005, "Color": "silver", "coupling-hook": false}
+
 let myUserName = "B_Deep";
 
 let myProfile = {
@@ -118,6 +122,28 @@ let myFriendMichael = {
 	carBarbara]
 }
 
+let myFriendRM = {
+	"Name": "Rajki Miklós",
+	"Address": "Sopron",
+	"Year of birth": 1986,
+	"Married": true,
+	"Kid": 1,
+	"Animal": false,
+	"Hobbies": "playing basketball", 
+	"Car": [carRM]
+}
+
+let myFriendME = {
+	"Name": "Mészáros Ernő",
+	"Address": "Sopron",
+	"Year of birth": 1955,
+	"Married": false,
+	"Kid": 2,
+	"Animal": false,
+	"Hobbies": "watching soccer matches", 
+	"Car": [carME]
+}
+
 let myFriends = {
 "Friends": [
     myFriendSzivCuki,
@@ -125,5 +151,16 @@ let myFriends = {
     myFriendBP,
     myFriendViki,
     myFriendGeri,
-    myFriendBarbara]
+    myFriendBarbara,
+	myFriendMichael,
+	myFriendRM,
+	myFriendME]
+}
+
+let myLikes = {
+	"My Likes": {
+	[myFriendSzivCuki]: "First Like": "2002", "Last Like": "1 day ago",
+	[myFriendHF], "First Like": "2010", "Last Like": "63 day ago",
+	[myFriendBP], "First Like": "2010", "Last Like": "63 day ago",
+	}
 }
