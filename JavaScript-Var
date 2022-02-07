@@ -71,7 +71,7 @@ let myInstaEA = {
 }
 
 let myInstaEV = {
-	"Name": "Előhegyi Attila",
+	"Name": "Előhegyi Viktória",
 	"Posts": 20,
 	"Followers": 125,
 	"Followings": 654
@@ -86,12 +86,69 @@ let myInsta = {
     myInstaGeri,
     myInstaJA,
 	myInstaLowBoy,
-	myInstaEA]
+	myInstaEA,
+	myInstaEV]
 }
 
-let myLikes = {
+let myLikesSzivCuki = {
 	"My Likes": 
 	[myInstaSzivCuki], 
 	"First Like": "2002", 
 	"Last Like": "1 day ago"
+}
+
+let myLikesArki = {
+	"My Likes":
+	[myInstaArki],
+	"First Like": "2015", 
+	"Last Like": "100 day ago"
+}
+
+let myLikesBarbara = {
+	"My Likes":
+	[myInstaBarbara],
+	"First Like": "2018", 
+	"Last Like": "23 day ago"
+}
+
+let myLikesFanni = {
+	"My Likes":
+	[myInstaMF],
+	"First Like": "2019", 
+	"Last Like": "50 day ago"
+}
+
+let myLikesGeri = {
+	"My Likes":
+	[myInstaGeri],
+	"First Like": "2020", 
+	"Last Like": "100 day ago"
+}
+
+let myLikesJA = {
+	"My Likes":
+	[myInstaJA],
+	"First Like": "2020", 
+	"Last Like": "100 day ago"
+}
+
+let myLikesLowBoy = {
+	"My Likes":
+	[myInstaLowBoy],
+	"First Like": "2020", 
+	"Last Like": "43 day ago"
+}
+
+let myLikesEA = {
+	"My Likes":
+	[myInstaEA],
+	"First Like": "2018", 
+	"Last Like": "120 day ago"
+}
+
+let myLikesEV = {
+	"My Likes":
+	[myInstaEV],
+	"First Like": "2018", 
+	"Last Like": "135 day ago"
 }
