@@ -1,20 +1,77 @@
-let dogHF = { "Name": "Lecsó", "breed": "chihuahua", "age": 3 }
+let dogHF = { 
+	"Name": "Lecsó", 
+	"breed": "chihuahua", 
+	"age": 3 
+}
 
-let dogBP = { "Name": "Töki", "breed": "mixed", "age": 7}
+let dogBP = { 
+	"Name": "Töki", 
+	"breed": "mixed", 
+	"age": 7
+}
 
-let dogViki = { "Name": "Kutya", "breed": "german sheperd", "age": 6}
+let dogViki = { 
+	"Name": "Kutya", 
+	"breed": "german sheperd", 
+	"age": 6
+}
 
-let catBarbara = { "Name": "Lili", "breed": "asian semilonghair", "age": 3}
+let catBarbara = { 
+	"Name": "Lili", 
+	"breed": "asian semilonghair", 
+	"age": 3
+}
 
-let myDog = { "Name": "Pannika", "breed": "mixed", "age": 4}
+let myDog = { 
+	"Name": "Pannika", 
+	"breed": "mixed", 
+	"age": 4}
 
-let carViki = { "Type": "VW", "Year": 2002, "Color": "grey",        "coupling-hook": true}
+let carViki = { 
+	"Type": "VW", 
+	"Year": 2002, 
+	"Color": "grey",        
+	"coupling-hook": true
+}
 
-let carBarbara = { "Type": "BMW", "Year": 2010, "Color": "black",   "coupling-hook": true}
+let carBarbara = { 
+	"Type": "BMW", 
+	"Year": 2010, 
+	"Color": "black",   
+	"coupling-hook": true
+}
 
-let carRM = { "Type": "Audi", "Year": 2015, "Color": "white", "coupling-hook": true}
+let carRM = { 
+	"Type": "Audi", 
+	"Year": 2015, 
+	"Color": "white", 
+	"coupling-hook": true
+}
 
-let carME = { "Type": "Skoda", "Year": 2005, "Color": "silver", "coupling-hook": false}
+let carME = { 
+	"Type": "Skoda", 
+	"Year": 2005, 
+	"Color": "silver", 
+	"coupling-hook": false
+}
+
+let myWife = { 
+	"Name": "Koch Annamária",
+	"Year of birth": 1973,
+    "Place of birth": "Sopron",
+    "Address": "Sopron, Juharfa út 24",
+    "Married": true,
+    "type": "pet",
+    "Dog": [
+    myDog
+    ],
+    "Hobbies": [
+    {"Name": "swimming",
+    "dangerous": false},
+    {"Name": "walking with dog"},
+    ]
+}
+
 
 let myUserName = "B_Deep";
 
@@ -29,18 +86,19 @@ let myProfile = {
     myDog
     ],
     "Hobbies": [
-        {"Name": "swimming",
+    {"Name": "swimming",
     "dangerous": false},
-        {"Name": "walking with dog"},
-        {"Name": "home workout"}
-        ]
+    {"Name": "walking with dog"},
+    {"Name": "home workout"}
+    ]
 }
 
 let myFriendSzivCuki = {
 	"Name": "Szivárvány Cukrász Manufaktura",
 	"Address": "Sopron, Ógabona tér 1.",
 	"Est.:": 2014,
-	"Animalfriendly": true
+	"Animalfriendly": true,
+	"Owner": [myWife]
 }
 
 let myFriendHF = {
@@ -54,7 +112,7 @@ let myFriendHF = {
 	],
 	"Hobbies": [
 	{"Name": "Darts",
-"dangerous": false},
+	"dangerous": false},
 	{"Name": "walking with dog"}
 	]
 }
@@ -157,10 +215,3 @@ let myFriends = {
 	myFriendME]
 }
 
-let myLikes = {
-	"My Likes": {
-	[myFriendSzivCuki]: "First Like": "2002", "Last Like": "1 day ago",
-	[myFriendHF], "First Like": "2010", "Last Like": "63 day ago",
-	[myFriendBP], "First Like": "2010", "Last Like": "63 day ago",
-	}
-}
