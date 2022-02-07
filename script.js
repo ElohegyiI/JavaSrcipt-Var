@@ -1,12 +1,27 @@
-function loadevent() {
-  console.log("Az oldal betöltődött.");
-  
-  const list = document.querySelectorAll("section");
-  
-  for (const elem of list) {
-      elem.insertAdjacentHTML("beforeend", 
-      `<p>text</p>`);
-      
+let myTitle = 'Seven';
+
+let Length = 127;
+
+let isKidFriendly = false;
+
+let Protagonist = {
+	Szinesz: "Kevin Spacey",
+	Karakter: "John Doe"	
 }
+
+let Antigonist = {
+	Szinesz: "Brad Pitt",
+	Karakter: "Detective Mills"
 }
-window.addEventListener("load", loadevent)
+
+let myFavMovie = {
+    "Title": "Seven",
+    "Director": "David Fincher",
+    "Release Date": 1995,
+    "Szineszek": [
+        Protagonist, 
+        Antigonist 
+    ],
+    "isKidFriendly": false
+
+}
