@@ -1,217 +1,28 @@
-let dogHF = { 
-	"Name": "Lecsó", 
-	"breed": "chihuahua", 
-	"age": 3 
+
+let myTitle = 'Seven';
+
+let Length = 127;
+
+let isKidFriendly = false;
+
+let Protagonist = {
+	Szinesz: "Kevin Spacey",
+	Karakter: "John Doe"	
 }
 
-let dogBP = { 
-	"Name": "Töki", 
-	"breed": "mixed", 
-	"age": 7
+let Antigonist = {
+	Szinesz: "Brad Pitt",
+	Karakter: "Detective Mills"
 }
 
-let dogViki = { 
-	"Name": "Kutya", 
-	"breed": "german sheperd", 
-	"age": 6
-}
-
-let catBarbara = { 
-	"Name": "Lili", 
-	"breed": "asian semilonghair", 
-	"age": 3
-}
-
-let myDog = { 
-	"Name": "Pannika", 
-	"breed": "mixed", 
-	"age": 4}
-
-let carViki = { 
-	"Type": "VW", 
-	"Year": 2002, 
-	"Color": "grey",        
-	"coupling-hook": true
-}
-
-let carBarbara = { 
-	"Type": "BMW", 
-	"Year": 2010, 
-	"Color": "black",   
-	"coupling-hook": true
-}
-
-let carRM = { 
-	"Type": "Audi", 
-	"Year": 2015, 
-	"Color": "white", 
-	"coupling-hook": true
-}
-
-let carME = { 
-	"Type": "Skoda", 
-	"Year": 2005, 
-	"Color": "silver", 
-	"coupling-hook": false
-}
-
-let myWife = { 
-	"Name": "Koch Annamária",
-	"Year of birth": 1973,
-    "Place of birth": "Sopron",
-    "Address": "Sopron, Juharfa út 24",
-    "Married": true,
-    "type": "pet",
-    "Dog": [
-    myDog
+let myFavMovie = {
+    "Title": "Seven",
+    "Director": "David Fincher",
+    "Release Date": 1995,
+    "Szineszek": [
+        Protagonist, 
+        Antigonist 
     ],
-    "Hobbies": [
-    {"Name": "swimming",
-    "dangerous": false},
-    {"Name": "walking with dog"},
-    ]
+    "isKidFriendly": false
+
 }
-
-
-let myUserName = "B_Deep";
-
-let myProfile = {
-    "Username": [myUserName],
-    "Year of birth": 1978,
-    "Place of birth": "Sopron",
-    "Address": "Sopron, Juharfa út 24",
-    "Married": true,
-    "type": "pet",
-    "Dog": [
-    myDog
-    ],
-    "Hobbies": [
-    {"Name": "swimming",
-    "dangerous": false},
-    {"Name": "walking with dog"},
-    {"Name": "home workout"}
-    ]
-}
-
-let myFriendSzivCuki = {
-	"Name": "Szivárvány Cukrász Manufaktura",
-	"Address": "Sopron, Ógabona tér 1.",
-	"Est.:": 2014,
-	"Animalfriendly": true,
-	"Owner": [myWife]
-}
-
-let myFriendHF = {
-	"Name": "Horváth Ferenc",
-	"Address": "Sopron, Juharfa u. 14",
-	"Year of birth": 1980,
-	"Animal": true,
-	"type": "pet",
-	"Dog": [
-	dogHF
-	],
-	"Hobbies": [
-	{"Name": "Darts",
-	"dangerous": false},
-	{"Name": "walking with dog"}
-	]
-}
-
-let myFriendBP = {
-	"Name": "Bősze Péter",
-	"Address": "Sopron, Ógabona tér 10",
-	"Year of birth": 1982,
-	"Animal": true,
-	"type": "pet",
-	"Dog": [
-	dogBP
-	]
-}
-
-let myFriendViki = {
-	"Name": "Szibel Viktória",
-	"Address": "Sopron, Új utca 10",
-	"Year of birth": 1986,
-	"Married": true,
-	"Kid": 1,
-	"Animal": true,
-	"type": "pet",
-	"Dog": [
-	dogViki
-	],
-	"Car": [
-	carViki]
-}
-
-let myFriendGeri = {
-	"Name": "Kocsis Gergely",
-	"Address": "Sopron, Új utca 10",
-	"Year of birth": 1986,
-	"Married": true,
-	"Kid": 1,
-	"Animal": true,
-	"type": "pet",
-}
-
-let myFriendBarbara = {
-	"Name": "Barbara Graf",
-	"Address": "Unterwaltersdorf",
-	"Year of birth": 1988,
-	"Married": true,
-	"Kid": 2,
-	"Animal": true,
-	"type": "pet",
-	"Cat": [
-	catBarbara]
-}
-
-let myFriendMichael = {
-	"Name": "Michael Graf",
-	"Address": "Unterwaltersdorf",
-	"Year of birth": 1986,
-	"Married": true,
-	"Kid": 2,
-	"Animal": true,
-	"type": "pet",
-	"Cat": [
-	catBarbara],
-	"Hobbies": "drummer in a rockband",
-	"Car": [
-	carBarbara]
-}
-
-let myFriendRM = {
-	"Name": "Rajki Miklós",
-	"Address": "Sopron",
-	"Year of birth": 1986,
-	"Married": true,
-	"Kid": 1,
-	"Animal": false,
-	"Hobbies": "playing basketball", 
-	"Car": [carRM]
-}
-
-let myFriendME = {
-	"Name": "Mészáros Ernő",
-	"Address": "Sopron",
-	"Year of birth": 1955,
-	"Married": false,
-	"Kid": 2,
-	"Animal": false,
-	"Hobbies": "watching soccer matches", 
-	"Car": [carME]
-}
-
-let myFriends = {
-"Friends": [
-    myFriendSzivCuki,
-    myFriendHF,
-    myFriendBP,
-    myFriendViki,
-    myFriendGeri,
-    myFriendBarbara,
-	myFriendMichael,
-	myFriendRM,
-	myFriendME]
-}
-
